@@ -1,0 +1,103 @@
+#about-page-title{
+    padding: 0px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.tableofcontent{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.toptableitem{
+    padding-top: 15px;
+}
+
+.tableitem{
+    padding-top: 5px;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: block;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(153, 153, 153, 0.9);
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#topLink :hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#anchor{
+    position: relative;
+    z-index: 0;
+}
+
+.anchorlink{
+    position: absolute;
+    top: -65px;
+}
+
+.project-anchorlink{
+    position: absolute;
+    top: -145px;
+}
+
+.project-tech{
+    width: 100%;
+    list-style: none;
+    white-space: initial;
+    margin-bottom: 5px;
+}
+
+.project-tech li {
+    flex: center;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.project-tech li::before{
+    content: "\25a0";
+    color: #8c5383;
+    display: inline-block;
+    width: 15px;
+    margin-left: 1em;
+}
+
+#date {
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+#project-title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#about-project{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 40%;
+}
+
+.border-container{
+    padding: 20px;
+    margin-bottom: 20px;
+    border: #777;
+    border-radius: 10px;
+    border-style: double;
+}

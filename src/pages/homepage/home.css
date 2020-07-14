@@ -1,0 +1,140 @@
+.home{
+    margin: 0 auto;
+}
+
+.namebox {
+    background-image: url('../../assets/images/sky.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    float: center;
+    font-size: 24px;
+    box-shadow: 3px 3px 5px #555;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name{
+    padding: 100px;
+    padding-bottom: 0;
+    color: #fff;
+    text-shadow: 3px 3px 3px #333;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    color: #fff;
+    text-shadow: 3px 3px 3px #555;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 30px;
+    padding: 0px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px;
+}
+
+p {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.squarelist{
+    padding-left: 30px;
+    padding-right: 30px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: none;
+}
+
+.squarelist li::before{
+    content: "\25a0";
+    color: #8c5383;
+    display: inline-block;
+    width: 2em;
+    margin-left: -1em;
+}
+
+.squarelist li{
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #9bc53d;
+}
+
+.topcardstyle {
+    z-index: 100;
+    display: grid;
+    margin: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #555;
+}
+
+.cardstyle {
+    z-index: 100;
+    display: grid;
+    margin: 5px;
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #555;
+}
+
+.cardtitle {
+    color: #333;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardtext {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.cardhoriz{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+img{
+    border-radius: 10px;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    box-shadow: 3px 3px 5px #555
+}
+
+#about{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 40%;
+}
+
+#about-title {
+    margin-top: 0px;
+}
+
+.clear{
+    clear: both;
+}
