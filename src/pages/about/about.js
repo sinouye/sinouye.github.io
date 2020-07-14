@@ -96,7 +96,7 @@ export default class About extends Component{
                             <img 
                                 id="about-title" 
                                 src={Campus} 
-                                alt="unr"  
+                                alt="unr-campus"  
                             />      
                             <div class="clear"/>
                         </div>
@@ -108,7 +108,7 @@ export default class About extends Component{
                             <img 
                                 id="about-title"
                                 src={UNR}
-                                alt="me-at-unr"
+                                alt="unr-logo"
                             />
                             <p className="cardtext" id="about">
                                 From Fall of 2016 to Spring of 2020, I attended the University of Nevada, Reno. 
